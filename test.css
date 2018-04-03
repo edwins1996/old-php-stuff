@@ -1,0 +1,340 @@
+body{
+    margin:0px;
+}
+
+#header{
+    position:fixed;
+    width:100%;
+    height:75px;
+    background-color:orange;
+    box-shadow: 0px 2px 10px #101010;
+    z-index:1;
+}
+
+#logo{
+    position:relative;
+    margin:0px auto;
+    }
+
+#pagina{
+    position:fixed;
+    margin:0px;
+    width:100%;
+    height:100%;
+    background-color:#00004e;
+    overflow:auto;
+}
+
+#content{
+    position:relative;
+    top:75px;
+    margin:0px auto;
+    margin-bottom:50px;
+    width:80%;
+    height:auto;
+    background-color:#DEDEDE;
+    box-shadow: 0px 1px 10px #101010;
+    padding:10px;
+    padding-bottom:55px;
+    min-height: 600px;
+    z-index:0;
+    overflow:auto;
+}
+
+#menu-buttons{
+    position:fixed;
+    height:75px;
+    width:auto;
+    right:0px;
+}
+
+#button1,#button2{
+    outline:none;
+    border:none;
+    background-color:transparent;
+    width:100px;
+    height:50px;
+    margin-top:12.5px;
+    float:right;
+    margin-right:5px;
+    font-size:20px;
+}
+#button3{
+    outline:none;
+    border:none;
+    background-color:transparent;
+    width:150px;
+    height:50px;
+    margin-top:12.5px;
+    float:right;
+   font-size:20px; 
+}
+
+#button1:hover,#button2:hover, #button3:hover{
+    background-color:#ffc457;
+    border-radius:5px;
+}
+
+#button1 a,#button2 a, #button3 a{
+    text-decoration:none;
+    font-family:Tahoma;
+    font-size:20px;
+    color:black;
+}
+
+#menu-lijst{
+    position:relative;
+    width:210px;
+    height:250px;
+    top:0px;   
+    background-color:#DEDEDE;
+    
+    
+}
+#menu-lijst-2{
+    position:relative;
+    margin:0px;
+    width:auto;
+    height:auto; 
+    max-height:200px;
+    background-color:#DEDEDE;
+    overflow-y:auto;
+    -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);    
+    padding-bottom:5px;
+    padding-top:2px;
+    padding-left:5px;
+    padding-right:5px;
+    
+}
+
+#planning-raster{
+    position:absolute;
+    top:129px;
+    left:250px;
+    height:auto;
+    width:741px;
+
+    
+}
+#planning-raster-pers-rooster{
+       position:relative;
+    top:10px;
+    left:50px;
+    height:auto;
+    width:741px;
+    -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75); 
+    
+}
+#tabel{
+    width:650px;
+    margin:0px;
+    margin-left:90px;
+    border-color:black;
+    -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75); 
+    z-index:5;
+}
+#tabel2{
+    width:91px;
+    height:50px;
+    margin:0px;
+    margin-top:-345px;
+    border-color:black;
+    /*-webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75); */
+    z-index:4;
+    font-family:Tahoma;
+    font-size:12px;
+}
+#tabel3{
+    width:742px;
+    margin:0px;
+    border-color:black;
+    -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,0.75); 
+    z-index:5;
+}
+#tabel, tr, td, th{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+#edit{
+    width:5px;
+    height:5px;
+    margin-right:10px;
+    float:right;
+}
+footer{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:50px;
+    z-index:0;
+    background-color:orange;
+    box-shadow: 0px -2px 10px #101010;
+}
+#beheer{
+    width:100px;
+}
+table, #tr, #td{
+    border:0px solid black;
+    border-collapse:collapse;
+}
+#achtergrondkleur-docent{
+    position:relative;
+    left:300px;
+    top:-68px;
+}
+#letterkleur-docent{
+    position:relative;
+    left:276px;
+    top:-45px;
+}
+#uitlogimg{
+    float:right;
+}
+#logout{
+    width:100px;
+    font-family:Tahoma;
+    float:right;
+    margin-top:-3px;
+}
+#logouthref{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    border-style:solid;
+    padding:2px;
+    border-width: 1px;
+    background-color:#faa406;
+}
+#logouthref:hover{
+    background-color:#00004e;
+    color:white;
+}
+#keuze{
+    position:relative;
+    margin:0px auto;
+    /*float:left;*/
+    margin-right:40px;
+    font-family:Tahoma;
+    width:auto;
+}
+#keuze:hover{
+    opacity:0.6;
+}
+#keuzetabel, #kzth, #kztr{
+    border:0px;
+}
+#keuze-menu{
+    margin-top:100px;
+}
+#changeww{
+    position:fixed;
+    margin:0px;
+    width:100%;
+    height:100%;
+    z-index:40;
+    background-color:#000000;
+    opacity:0.6;
+}
+#wwchange{
+    position:relative;
+    margin:0px auto;
+    width:300px;
+    height:300px;
+    background-color:#DEDEDE;
+    opacity:1;
+    z-index:41;
+    top:150px;
+    padding:10px;
+    border-radius:25px;
+}
+#beheer-icon:hover{
+    opacity:0.6;
+}
+#historiek-button{
+    text-decoration:none;
+    color:blue;
+    background-color:;
+    font-family:Tahoma;
+}
+#historiek-button:hover{
+    color:navy;
+}
+#les-add-delete{
+
+}
+#attach{
+    width:5px;
+    height:5px;
+    margin-right:10px;
+    float:right;
+}
+#mijn-rooster-href-ll{
+    float:right;
+    font-family:Tahoma;
+    width:150px;
+    height:50px;
+    margin-top:12.5px;
+    margin-right:5px;
+    font-size:20px;
+    line-height:47.5px;
+}
+#mijn-rooster-href-ll:hover{
+    background-color:#ffc457;
+    border-radius:5px;
+}
+span{
+    font-family:Tahoma;
+    font-size:15px;
+}
+#check{
+    width:25px;
+    height:25px;
+    border-radius:0px;
+}
+#menu-lijst-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #DEDEDE;
+}
+
+#menu-lijst-2::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: orange;
+}
+
+#menu-lijst-2::-webkit-scrollbar-thumb
+{
+	/*border-radius: 10px;*/
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #a2a2a2;
+}
+#menu-lijst-2 scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #DEDEDE;
+}
+
+#menu-lijst-2 scrollbar
+{
+	width: 5px;
+	background-color: orange;
+}
+
+#menu-lijst-2 scrollbar-thumb
+{
+	/*border-radius: 10px;*/
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #a2a2a2;
+}

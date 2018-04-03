@@ -1,0 +1,1 @@
+var tinyMCEImageList = new Array(["Grappig-Plaatje-beheerder-team-aan-het-werk.jpg", "http://10.0.0.221/ELIPS/Afbeeldingschrijven/img/Grappig-Plaatje-beheerder-team-aan-het-werk.jpg"]);
